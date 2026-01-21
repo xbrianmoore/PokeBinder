@@ -85,6 +85,9 @@ onMounted(async () =>{
 </script>
 
 <template>
+// implement search bar here
+// debounce search results through a time buffer
+//on enter, show list of results with card preview, name, set, and rarity
   <div v-if="card">
     <h1> {{ card.name }}</h1>
     <img :src='cardImageUrl' alt="card.name">
